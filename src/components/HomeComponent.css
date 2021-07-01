@@ -1,0 +1,18 @@
+.Home {
+    border: 1px solid lightgray;
+    width: max-content;
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 5px 5px 5px 0px rgba(0,0,0,0.50);
+    -webkit-box-shadow: 5px 5px 5px 0px rgba(0,0,0,0.50);
+    -moz-box-shadow: 5px 5px 5px 0px rgba(0,0,0,0.50);
+}
+
+.Home h2 {
+    width: fit-content;
+    margin: 10px auto;
+}
+
+.isLoading {
+    margin: 150px auto;
+}
