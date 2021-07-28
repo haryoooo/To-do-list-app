@@ -1,3 +1,15 @@
 .Input {
     margin: 30px auto;
 }
+
+.swal-wide {
+    width:400px !important;
+}
+
+@media (max-width:500px) {
+
+    .swal-wide {
+        font-size: 1.6rem;
+    }
+
+}

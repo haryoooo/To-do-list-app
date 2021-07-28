@@ -1,0 +1,50 @@
+[debug] [2021-07-28T11:23:01.035Z] ----------------------------------------------------------------------
+[debug] [2021-07-28T11:23:01.038Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\ISG-HARYO\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js init
+[debug] [2021-07-28T11:23:01.038Z] CLI Version:   9.16.0
+[debug] [2021-07-28T11:23:01.038Z] Platform:      win32
+[debug] [2021-07-28T11:23:01.038Z] Node Version:  v14.15.5
+[debug] [2021-07-28T11:23:01.039Z] Time:          Wed Jul 28 2021 18:23:01 GMT+0700 (Indochina Time)
+[debug] [2021-07-28T11:23:01.039Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2021-07-28T11:23:01.057Z] >>> [apiv2][query] GET https://firebase-public.firebaseio.com/cli.json [none]
+[debug] [2021-07-28T11:23:01.223Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2021-07-28T11:23:01.224Z] > authorizing via signed-in user (haryoharyo2@gmail.com)
+[info] 
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  C:\Users\ISG-HARYO\.vscode\To-Do-List App\todolist-app
+
+Before we get started, keep in mind:
+
+  * You are initializing within an existing Firebase project directory
+
+[debug] [2021-07-28T11:23:01.992Z] <<< [apiv2][status] GET https://firebase-public.firebaseio.com/cli.json 200
+[debug] [2021-07-28T11:23:01.992Z] <<< [apiv2][body] GET https://firebase-public.firebaseio.com/cli.json {"cloudBuildErrorAfter":1594252800000,"cloudBuildWarnAfter":1590019200000,"defaultNode10After":1594252800000,"minVersion":"3.0.5","node8DeploysDisabledAfter":1613390400000,"node8RuntimeDisabledAfter":1615809600000,"node8WarnAfter":1600128000000}
+[info] 
+=== Project Setup
+[info] 
+[info] First, let's associate this project directory with a Firebase project.
+[info] You can create multiple project aliases by running firebase use --add, 
+[info] but for now we'll just set up a default project.
+[info] 
+[debug] [2021-07-28T11:23:33.137Z] > refreshing access token with scopes: []
+[debug] [2021-07-28T11:23:33.138Z] >>> HTTP REQUEST POST https://www.googleapis.com/oauth2/v3/token  
+ <request body omitted>
+[debug] [2021-07-28T11:23:33.370Z] <<< HTTP RESPONSE 200 {"date":"Wed, 28 Jul 2021 11:23:33 GMT","cache-control":"no-cache, no-store, max-age=0, must-revalidate","pragma":"no-cache","expires":"Mon, 01 Jan 1990 00:00:00 GMT","content-type":"application/json; charset=utf-8","vary":"X-Origin, Referer, Origin,Accept-Encoding","server":"scaffolding on HTTPServer2","x-xss-protection":"0","x-frame-options":"SAMEORIGIN","x-content-type-options":"nosniff","alt-svc":"h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000,h3-T051=\":443\"; ma=2592000,h3-Q050=\":443\"; ma=2592000,h3-Q046=\":443\"; ma=2592000,h3-Q043=\":443\"; ma=2592000,quic=\":443\"; ma=2592000; v=\"46,43\"","accept-ranges":"none","transfer-encoding":"chunked"}
+[debug] [2021-07-28T11:23:33.451Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/react-todolist-79e6a [none]
+[debug] [2021-07-28T11:23:33.776Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/react-todolist-79e6a 200
+[debug] [2021-07-28T11:23:33.776Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/react-todolist-79e6a {"projectId":"react-todolist-79e6a","projectNumber":"364306915194","displayName":"React todolist","name":"projects/react-todolist-79e6a","resources":{"hostingSite":"react-todolist-79e6a","realtimeDatabaseInstance":"react-todolist-79e6a-default-rtdb"},"state":"ACTIVE"}
+[info] i  Using project react-todolist-79e6a (React todolist) 
+[info] 
+=== Hosting Setup
+[info] 
+[info] Your public directory is the folder (relative to your project directory) that
+[info] will contain Hosting assets to be uploaded with firebase deploy. If you
+[info] have a build process for your assets, use your build's output directory.
+[info] 
